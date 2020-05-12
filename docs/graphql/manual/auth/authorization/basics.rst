@@ -108,7 +108,7 @@ the ``Request Headers`` section of ``GraphiQL`` as highlighted below:
 
 As you can see, the results are now filtered based on the access control rule for the role ``user``
 (*since that is the role indicated by the* ``X-Hasura-Role`` *session variable*) and the results are
-restricted to only those rows where the value in the ``id`` column is equal to ``1`` (*as indicated by
+restricted to only those rows where the value in the ``id`` column is equal to ``4`` (*as indicated by
 the* ``X-Hasura-User-ID`` *session variable*).
 
 As described in the :ref:`Introduction to Authentication and Authorization <authorization>` section of the docs,
